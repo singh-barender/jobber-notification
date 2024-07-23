@@ -1,4 +1,4 @@
-## Notification Microservice
+# Notification Microservice
 
 - The notification microservice is responsible for sending out email notifications to users.
 - The email templates available are for
@@ -33,7 +33,7 @@
 - In order to see the emails, you have to keep the same `ethereal` page open. If you close the page, you will have to recreate the email and password and add them to your `.env` file.
 - You can start the service with `npm run dev`.
 
-### Create docker images
+## Create docker images
 
 - You can create your own docker image from this microservice.
 - Create an account on `hub.docker.com` or login if you already have one.
